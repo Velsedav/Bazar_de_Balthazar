@@ -1,0 +1,73 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+img {
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+    position: relative;
+}
+body {
+    /* width: 80%;
+    margin: auto; */
+    background-color: rgb(245, 226, 202);
+}
+button {
+    background-color: darkorange;
+    color: white;
+    font-size: 1.4rem;
+    border-style: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+}
+button:hover {
+    background-color: orangered;
+}
+p {
+    font-size: 1.6rem;
+}
+h2{
+    font-size: 2.4rem;
+}
+.Ctgr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: darkgray;
+    z-index: 1;
+}
+.card{
+    max-width: 300px;
+    width: fit-content;
+    border-radius: 8px;
+    background-color: red;margin-bottom: 4rem;
+}
+.CardsCtnr{
+	display: flex;flex-wrap:wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    background-color:blanchedalmond;
+    position: relative;
+}
+.Rltv{
+    position: relative;
+}
+.Abslt{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
