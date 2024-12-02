@@ -13,14 +13,9 @@ h1{
     margin-bottom: 32px;
 }
 img {
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 1.2rem 1.2rem 1.2rem 1.2rem;
     width: 100%;
     position: relative;
-}
-body {
-    /* width: 80%;
-    margin: auto; */
-    background-color: rgb(245, 226, 202);
 }
 button {
     background-color: darkorange;
@@ -37,30 +32,36 @@ button:hover {
 }
 p {
     font-size: 1.6rem;
+    margin-bottom: 1.2rem;
 }
 h2{
     font-size: 2.4rem;
+    margin-bottom: 1.8rem;
 }
 .Ctgr{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: white;
-    color: darkgray;
+    background-color: rgba(233, 233, 233, 0.904);
+    color: rgb(155, 155, 155);
     z-index: 1;
+    border-radius: 1.2rem 0px 4px 0px;
+    padding: 0.6rem 0.8rem;
 }
 .card{
     max-width: 300px;
     width: fit-content;
     border-radius: 8px;
-    background-color: red;margin-bottom: 4rem;
+    background-color:#DCE4C9;
+    margin-bottom: 4rem;
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
 }
 .CardsCtnr{
 	display: flex;flex-wrap:wrap;
     justify-content: space-between;
     width: 90%;
     margin: auto;
-    background-color:blanchedalmond;
+    background-color: #B6A28E;
     position: relative;
 }
 .Rltv{
@@ -70,4 +71,5 @@ h2{
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
 }

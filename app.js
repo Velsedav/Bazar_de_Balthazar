@@ -37,30 +37,29 @@ function affiche(produit) {
   let CardsCtnr = document.querySelector(".CardsCtnr");
   CardsCtnr.innerHTML += `
         
-        <div class="card">
-          <!-- Div Image Carte -->
-          <div>
-          <div class="Rltv">
-          <img src="${image}" alt="" />
-        </div>
-            <p class="Ctgr">${category}</p>
-          </div>
-          <!-- Div Partie inferieure carte -->
-          <div>
-            <!-- Div Description Carte -->
-            <div>
-              <h2>${title}</h2>
-              <p>${description}</p>
-            </div>
-            <!-- Avis et Prix -->
-            <div>
-              <p>${rate}</p>
-              <p>${count}</p>
-              <p>${price}€</p>
-            </div>
-            <button>PRIX EXTRA ACHETE VITE</button>
-          </div>
-        </div>
-      </div>
+<div class="card">
+  <!-- Div Image Carte -->
+  <div>
+    <div class="Rltv">
+      <img src="${image}" alt="" />
+      <p class="Ctgr">${category}</p>
+    </div>
+  </div>
+  <!-- Div Partie inferieure carte -->
+  <div>
+    <!-- Div Description Carte -->
+    <div>
+      <h2>${title}</h2>
+      <p>${description}</p>
+    </div>
+    <!-- Avis et Prix -->
+    <div>
+      <p>${rate}/5</p>
+      <p>${count} avis</p>
+      <p>${price}€</p>
+    </div>
+    <button>PRIX EXTRA ! ACHETE VITE !</button>
+  </div>
+</div>
       `;
 }
