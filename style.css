@@ -6,11 +6,36 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+body {
+    background-color: #B6A28E;
+}
 h1{
-    text-align: center;
+text-align: center;
     font-size: 3.4rem;
     font-weight: 800;
-    margin-bottom: 32px;
+    padding: 1.6rem 3.2rem;
+    background-color: black;
+    color: gold;
+}
+h2{
+    font-size: 2.4rem;
+    margin-bottom: 1.8rem;
+}
+h3{
+    text-align: center;
+    padding: 0.9rem 1.6rem;
+    font-size: 2.4rem;
+    background-color: black;
+    color: gold;
+    margin-bottom: 3.2rem;
+}
+p {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+}
+a {
+    font-size: 1.6rem;
+    text-decoration: none;
 }
 img {
     border-radius: 1.2rem 1.2rem 1.2rem 1.2rem;
@@ -29,14 +54,6 @@ button {
 }
 button:hover {
     background-color: orangered;
-}
-p {
-    font-size: 1.6rem;
-    margin-bottom: 1.2rem;
-}
-h2{
-    font-size: 2.4rem;
-    margin-bottom: 1.8rem;
 }
 .Ctgr{
     position: absolute;
@@ -64,12 +81,26 @@ h2{
     background-color: #B6A28E;
     position: relative;
 }
+/* Debut Team Positionnement */
 .Rltv{
     position: relative;
 }
-.Abslt{
+.AbsltZindex1{
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
 }
+.flex {
+    display: flex;
+}
+.SpcBtwn{
+    justify-content: space-between;
+}
+.SpcArnd{
+    justify-content: space-around;
+}
+.AlgnItmCntr{
+    align-items: center;
+}
+/* Fin Team positionnement */
