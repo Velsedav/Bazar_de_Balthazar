@@ -13,10 +13,15 @@ fetch("https://fakestoreapi.com/products")
     });
   });
 
-// Role afficher un produit dans la page HTML
-// Parametre : Le produit
+
+
+// Role : 🎥 fficher un produit dans la page HTML
+// Parametre : 📦Le produit 
+// Retour : 🧠Elle ne retourne rien puisqu'elle affiche
 
 function affiche(produit) {
+  // Pourquoi 'produit' ? Car c'est le produit sur lequel la boucle est actuellement
+
   // On utilise console log pour vérifier que le JSON fonctionne correctement
   // console.log(produit.title);
   // console.log(produit.description);
@@ -25,6 +30,7 @@ function affiche(produit) {
   // console.log(produit.rating.rate);
   // console.log(produit.rating.count);
   // console.log(produit.image);
+
   // afficher dans le dom les petites cartes
   let title = produit.title;
   let description = produit.description;
@@ -34,6 +40,7 @@ function affiche(produit) {
   let count = produit.rating.count;
   let image = produit.image;
 
+  // On a créé cette variable pour nous faciliter la vie
   let CardsCtnr = document.querySelector(".CardsCtnr");
   CardsCtnr.innerHTML += `
         
