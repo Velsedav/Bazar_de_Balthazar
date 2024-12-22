@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Kebagh';
+    src: url('Kebagh-Regular.eot');
+    src: url('Kebagh-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Kebagh-Regular.woff2') format('woff2'),
+        url('Kebagh-Regular.woff') format('woff'),
+        url('Kebagh-Regular.ttf') format('truetype'),
+        url('Kebagh-Regular.svg#Kebagh-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kebagh';
+    src: url('Kebagh-Regular_1.eot');
+    src: url('Kebagh-Regular_1.eot?#iefix') format('embedded-opentype'),
+        url('Kebagh-Regular_1.woff2') format('woff2'),
+        url('Kebagh-Regular_1.woff') format('woff'),
+        url('Kebagh-Regular_1.ttf') format('truetype'),
+        url('Kebagh-Regular_1.svg#Kebagh-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
