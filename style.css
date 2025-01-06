@@ -75,9 +75,11 @@ button:hover {
     margin-bottom: 4rem;
     padding: 1.2rem 1.2rem 1.2rem 1.2rem;
 }
-.CardsCtnr{
-	display: flex;flex-wrap:wrap;
+.flex {
+    display: flex;flex-wrap:wrap;
     justify-content: space-between;
+}
+.CardsCtnr{
     width: 90%;
     margin: auto;
     background-color: #B6A28E;
@@ -106,3 +108,36 @@ button:hover {
     align-items: center;
 }
 /* Fin Team positionnement */
+
+@media all and (max-width: 500px) {
+    .small{
+        margin: auto;
+        justify-content: center;
+        width: 100%;
+    }
+    h1 {
+        /* color: red; */
+    }
+}
+@media all and (max-width: 800px) and (min-width: 501px) {
+    .flex {
+        display: flex;flex-wrap:wrap;
+        justify-content: space-between;
+    }
+    h1 {
+        /* color: purple; */
+    }
+    .card{
+        max-width: 48%;
+    }
+}
+@media all and (min-width: 801px) {
+    h1 {
+        /* color: blue; */
+    }
+    .flex {
+        display: flex;flex-wrap:wrap;
+        justify-content: space-between;
+        gap: 0.8rem;
+    }
+}
