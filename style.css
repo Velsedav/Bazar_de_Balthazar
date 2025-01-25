@@ -1,6 +1,13 @@
 html {
   font-size: 62.5%;
 }
+:root{
+    --color-1:#f8ffe5;
+    --color-1:#06d6a0;
+    --color-1:#1b9aaa;
+    --color-1:#ef476f;
+    --color-1:#ffc43d;
+}
 * {
   margin: 0;
   padding: 0;
@@ -40,7 +47,7 @@ a {
     text-decoration: none;
 }
 img {
-    border-radius: 1.2rem 1.2rem 1.2rem 1.2rem;
+    border-radius: 0.4rem;
     width: 100%;
     position: relative;
 }
@@ -64,13 +71,13 @@ button:hover {
     background-color: rgba(233, 233, 233, 0.904);
     color: rgb(155, 155, 155);
     z-index: 1;
-    border-radius: 1.2rem 0px 4px 0px;
+    border-radius: 0.4rem 0px 4px 0px;
     padding: 0.6rem 0.8rem;
 }
 .card{
-    max-width: 300px;
+    max-width: 320px;
     width: fit-content;
-    border-radius: 8px;
+    border-radius: 4px;
     background-color:#DCE4C9;
     margin-bottom: 4rem;
     padding: 1.2rem 1.2rem 1.2rem 1.2rem;
