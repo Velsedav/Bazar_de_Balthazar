@@ -2,11 +2,15 @@ html {
   font-size: 62.5%;
 }
 :root{
-    --color-1:#f8ffe5;
-    --color-1:#06d6a0;
-    --color-1:#1b9aaa;
-    --color-1:#ef476f;
-    --color-1:#ffc43d;
+    --persian-white:#f8ffe5;
+    --persian-green:#11c595;
+    --persian-teal:#1b9aaa;
+    --persian-red:#ef476f;
+    --persian-gold:#ffc43d;
+    --title-gold:#fdc00d;
+    --shia-light-blue:#1ec4f4;
+    --shia-dark-blue:#2d3194;
+    --border-radius:0.4rem;
 }
 * {
   margin: 0;
@@ -14,29 +18,36 @@ html {
   box-sizing: border-box;
 }
 body {
-    background-color: #B6A28E;
+    background:url(https://img.freepik.com/vecteurs-libre/vector-abstract-geometric-islamic-background-base-ornements-ethniques-musulmans-rayures-papier-entrelacees-fond-elegant-pour-cartes-invitations-etc_1217-633.jpg?t=st=1737918242~exp=1737921842~hmac=b56464a3fd4e99e22774a1b638dffa9c2a658d5712081bace8443f172f18aa20&w=1380);
+    background-repeat: repeat;
+}
+header {
+    background: url(https://img.goodfon.com/original/2048x1152/f/13/pattern-islamic-pattern-mosque.jpg);
+}
+.titles{
+    backdrop-filter: blur(2px);
+    color: var(--title-gold);
+    -webkit-text-stroke: 1px lightgray;
+    /* font-family: 'Kebagh'; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 h1{
 text-align: center;
     font-size: 6rem;
     font-weight: 800;
     padding: 4rem 3.2rem 2rem;
-    background-color: black;
-    color: gold;
-    font-family: 'Kebagh';
 }
 h2{
     font-size: 2.4rem;
-    margin-bottom: 1.8rem;
+    margin: 1rem;
+    margin-left: 0;
 }
 h3{
     text-align: center;
     padding: 2rem 1.6rem 4rem;
-    font-size: 2.4rem;
-    background-color: black;
-    color: gold;
+    font-size: 3rem;
     margin-bottom: 3.2rem;
-    font-family: 'Kebagh';
 }
 p {
     font-size: 1.6rem;
@@ -46,18 +57,14 @@ a {
     font-size: 1.6rem;
     text-decoration: none;
 }
-img {
-    border-radius: 0.4rem;
-    width: 100%;
-    position: relative;
-}
+
 button {
-    background-color: darkorange;
-    color: white;
-    font-size: 1.4rem;
+    background-color: var(--persian-green);
+    color: var(--persian-white);
+    font-size: 1.6rem;
     border-style: none;
     padding: 8px 16px;
-    border-radius: 4px;
+    border-radius: var(--border-radius);
     display: block;
     margin: auto;
 }
@@ -77,10 +84,30 @@ button:hover {
 .card{
     max-width: 320px;
     width: fit-content;
-    border-radius: 4px;
-    background-color:#DCE4C9;
-    margin-bottom: 4rem;
-    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+    border-radius: var(--border-radius);
+    background-color: var(--persian-gold);
+    /* margin: 0.6rem; */
+    /* padding: 1.2rem 1.2rem 1.2rem 1.2rem; */
+    display: flex;
+    flex-direction: column;
+}
+.card img {
+    border-radius: var(--border-radius);
+    width: 100%;
+    position: relative;
+    object-fit: contain;
+    /* max-height: 40%; */
+}
+.innerCtnr{
+    padding: 1.4rem;
+}
+.description{
+    color: rgb(101, 93, 93);
+}
+.prix{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--shia-dark-blue);
 }
 .flex {
     display: flex;flex-wrap:wrap;
@@ -89,7 +116,7 @@ button:hover {
 .CardsCtnr{
     width: 90%;
     margin: auto;
-    background-color: #B6A28E;
+    /* background-color: var(--shia-dark-blue); */
     position: relative;
 }
 /* Debut Team Positionnement */

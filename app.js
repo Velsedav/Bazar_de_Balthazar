@@ -40,6 +40,8 @@ function affiche(produit) {
   let count = produit.rating.count;
   let image = produit.image;
 
+  
+
   // On a créé cette variable pour nous faciliter la vie
   let CardsCtnr = document.querySelector(".CardsCtnr");
   CardsCtnr.innerHTML += `
@@ -53,21 +55,21 @@ function affiche(produit) {
             </div>
 
           <!-- Div Partie inferieure carte -->
-          <div>
+          <div class="innerCtnr">
             <!-- Div Description Carte -->
             <div>
               <h2>${title}</h2>
-              <p>${description}</p>
+              <p class="description">${description}</p>
             </div>
             <!-- Avis et Prix -->
                    <div class="flex SpcBtwn">
-                     <div class="SpcBtwn">
-                       <p>${rate}/5</p>
+                     <div class=" flex SpcBtwn">
+                       <p>Note : ${rate}/5</p>
                        <a href="">${count} avis</a>
                      </div>
-                     <p>${price}€</p>
+                     <p class="prix">${price}€</p>
                    </div>
-            <button>PRIX EXTRA ! ACHETE VITE !</button>
+            <button>Ajouter au panier</button>
           </div>
         </div>
       `;
