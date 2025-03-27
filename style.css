@@ -1,16 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto&display=swap");
 html {
   font-size: 62.5%;
 }
-:root{
-    --persian-white:#f8ffe5;
-    --persian-green:#11c595;
-    --persian-teal:#1b9aaa;
-    --persian-red:#ef476f;
-    --persian-gold:#ffc43d;
-    --title-gold:#fdc00d;
-    --shia-light-blue:#1ec4f4;
-    --shia-dark-blue:#2d3194;
-    --border-radius:0.4rem;
+:root {
+  --persian-white: #f8ffe5;
+  --persian-green: #11c595;
+  --persian-teal: #1b9aaa;
+  --persian-red: #ef476f;
+  --persian-gold: #ffc43d;
+  --title-gold: #fdc00d;
+  --shia-light-blue: #1ec4f4;
+  --shia-dark-blue: #2d3194;
+  --border-radius: 0.4rem;
 }
 * {
   margin: 0;
@@ -18,160 +20,156 @@ html {
   box-sizing: border-box;
 }
 body {
-    background:url(https://img.freepik.com/vecteurs-libre/vector-abstract-geometric-islamic-background-base-ornements-ethniques-musulmans-rayures-papier-entrelacees-fond-elegant-pour-cartes-invitations-etc_1217-633.jpg?t=st=1737918242~exp=1737921842~hmac=b56464a3fd4e99e22774a1b638dffa9c2a658d5712081bace8443f172f18aa20&w=1380);
-    background-repeat: repeat;
+  background: url(https://img.freepik.com/vecteurs-libre/vector-abstract-geometric-islamic-background-base-ornements-ethniques-musulmans-rayures-papier-entrelacees-fond-elegant-pour-cartes-invitations-etc_1217-633.jpg?t=st=1737918242~exp=1737921842~hmac=b56464a3fd4e99e22774a1b638dffa9c2a658d5712081bace8443f172f18aa20&w=1380);
+  background-repeat: repeat;
 }
 header {
-    background: url(https://img.goodfon.com/original/2048x1152/f/13/pattern-islamic-pattern-mosque.jpg);
+  background: url(https://img.goodfon.com/original/2048x1152/f/13/pattern-islamic-pattern-mosque.jpg);
 }
-.titles{
-    backdrop-filter: blur(2px);
-    color: var(--title-gold);
-    -webkit-text-stroke: 1px lightgray;
-    /* font-family: 'Kebagh'; */
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.titles {
+  backdrop-filter: blur(2px);
+  color: var(--title-gold);
+  -webkit-text-stroke: 1px lightgray;
+  /* font-family: 'Kebagh'; */
+  font-family: "Roboto", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-h1{
-text-align: center;
-    font-size: 6rem;
-    font-weight: 800;
-    padding: 4rem 3.2rem 2rem;
+h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 800;
+  padding: 4rem 3.2rem 2rem;
 }
-h2{
-    font-size: 2.4rem;
-    margin: 1rem;
-    margin-left: 0;
+h2 {
+  font-size: 2.4rem;
+  margin: 1rem;
+  margin-left: 0;
+  font-family: "";
 }
-h3{
-    text-align: center;
-    padding: 2rem 1.6rem 4rem;
-    font-size: 3rem;
-    margin-bottom: 3.2rem;
+h3 {
+  text-align: center;
+  padding: 2rem 1.6rem 4rem;
+  font-size: 3rem;
+  margin-bottom: 3.2rem;
 }
 p {
-    font-size: 1.6rem;
-    margin-bottom: 1.2rem;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
 }
 a {
-    font-size: 1.6rem;
-    text-decoration: none;
+  font-size: 1.6rem;
+  text-decoration: none;
 }
 
 button {
-    background-color: var(--persian-green);
-    color: var(--persian-white);
-    font-size: 1.6rem;
-    border-style: none;
-    padding: 8px 16px;
-    border-radius: var(--border-radius);
-    display: block;
-    margin: auto;
+  background-color: var(--persian-green);
+  color: var(--persian-white);
+  font-size: 1.6rem;
+  border-style: none;
+  padding: 12px 32px;
+  border-radius: var(--border-radius);
+  display: block;
+  margin: auto;
 }
 button:hover {
-    background-color: orangered;
+  background-color: var(--persian-gold);
 }
-.Ctgr{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(233, 233, 233, 0.904);
-    color: rgb(155, 155, 155);
-    z-index: 1;
-    border-radius: 0.4rem 0px 4px 0px;
-    padding: 0.6rem 0.8rem;
+.Ctgr {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(233, 233, 233, 0.904);
+  color: rgb(155, 155, 155);
+  z-index: 1;
+  border-radius: 0.4rem 0px 4px 0px;
+  padding: 0.6rem 0.8rem;
 }
-.card{
-    max-width: 320px;
-    width: fit-content;
-    border-radius: var(--border-radius);
-    background-color: var(--persian-gold);
-    /* margin: 0.6rem; */
-    /* padding: 1.2rem 1.2rem 1.2rem 1.2rem; */
-    display: flex;
-    flex-direction: column;
+.card {
+  max-width: 320px;
+  width: fit-content;
+  border-radius: var(--border-radius);
+  background-color: #f4f1f1;
+  /* margin: 0.6rem; */
+  /* padding: 1.2rem 1.2rem 1.2rem 1.2rem; */
+  display: flex;
+  flex-direction: column;
 }
 .card img {
-    border-radius: var(--border-radius);
-    width: 100%;
-    position: relative;
-    object-fit: contain;
-    /* max-height: 40%; */
+  border-radius: var(--border-radius);
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+  /* max-height: 40%; */
 }
-.innerCtnr{
-    padding: 1.4rem;
+.innerCtnr {
+  padding: 1.4rem;
 }
-.description{
-    color: rgb(101, 93, 93);
+.description {
+  color: rgb(101, 93, 93);
 }
-.prix{
-    font-size: 2rem;
-    font-weight: 600;
-    color: var(--shia-dark-blue);
+.prix {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--shia-dark-blue);
 }
 .flex {
-    display: flex;flex-wrap:wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.CardsCtnr{
-    width: 90%;
-    margin: auto;
-    /* background-color: var(--shia-dark-blue); */
-    position: relative;
+.CardsCtnr {
+  width: 90%;
+  margin: auto;
+  /* background-color: var(--shia-dark-blue); */
+  position: relative;
 }
 /* Debut Team Positionnement */
-.Rltv{
-    position: relative;
+.Rltv {
+  position: relative;
 }
-.AbsltZindex1{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
+.AbsltZindex1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .flex {
-    display: flex;
+  display: flex;
 }
-.SpcBtwn{
-    justify-content: space-between;
+.SpcBtwn {
+  justify-content: space-between;
 }
-.SpcArnd{
-    justify-content: space-around;
+.SpcArnd {
+  justify-content: space-around;
 }
-.AlgnItmCntr{
-    align-items: center;
+.AlgnItmCntr {
+  align-items: center;
 }
 /* Fin Team positionnement */
 
 @media all and (max-width: 500px) {
-    .small{
-        margin: auto;
-        justify-content: center;
-        width: 100%;
-    }
-    h1 {
-        /* color: red; */
-    }
+  .small {
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+  }
 }
 @media all and (max-width: 800px) and (min-width: 501px) {
-    .flex {
-        display: flex;flex-wrap:wrap;
-        justify-content: space-between;
-    }
-    h1 {
-        /* color: purple; */
-    }
-    .card{
-        max-width: 48%;
-    }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    max-width: 48%;
+  }
 }
 @media all and (min-width: 801px) {
-    h1 {
-        /* color: blue; */
-    }
-    .flex {
-        display: flex;flex-wrap:wrap;
-        justify-content: space-between;
-        gap: 0.8rem;
-    }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.8rem;
+  }
 }

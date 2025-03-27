@@ -13,10 +13,8 @@ fetch("https://fakestoreapi.com/products")
     });
   });
 
-
-
 // Role : 🎥 fficher un produit dans la page HTML
-// Parametre : 📦Le produit 
+// Parametre : 📦Le produit
 // Retour : 🧠Elle ne retourne rien puisqu'elle affiche
 
 function affiche(produit) {
@@ -33,17 +31,19 @@ function affiche(produit) {
 
   // afficher dans le dom les petites cartes
   let title = produit.title;
-  let description = produit.description;
+  let description =
+    produit.description.length > 200
+      ? produit.description.slice(0, 300) + "…"
+      : produit.description;
   let category = produit.category;
   let price = produit.price;
   let rate = produit.rating.rate;
   let count = produit.rating.count;
   let image = produit.image;
 
-  
-
   // On a créé cette variable pour nous faciliter la vie
   let CardsCtnr = document.querySelector(".CardsCtnr");
+  // @ts-ignore
   CardsCtnr.innerHTML += `
         
         <div class="card">
